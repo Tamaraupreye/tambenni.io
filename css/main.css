@@ -971,19 +971,6 @@ section.active {
     font-family: 'Open Sans', sans-serif;
 }
 
-.resume .resume-item h6 {
-	background: url('../images/bg-over.png') repeat #2a2a2e;
-    border: 1px solid #35353a;
-    border-radius: 4px;
-    color: #c79864;
-    padding: 10px;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: .2px;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-}
-
 .resume .resume-item .details p {
     color: #d8d7d6;
     font-size: 15px;

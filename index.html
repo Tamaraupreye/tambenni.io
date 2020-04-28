@@ -45,9 +45,25 @@
 		}
 		a.company-link {
   			color: #c79864;
+  			text-decoration: none;
+			display: inline-block;
+  			position: relative;
 		}
-		a.company-link:hover {
-  			text-decoration: underline;
+		a.company-link:after {
+			background: none repeat scroll 0 0 transparent;
+  			bottom: 0;
+  			content: "";
+  			display: block;
+  			height: 2px;
+  			left: 50%;
+  			position: absolute;
+  			background: #c79864;
+  			transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  			width: 0;
+		}
+		a.company-link:hover:after {
+  			width: 100%; 
+  			left: 0; 
 		}
 	</style>
     </head>

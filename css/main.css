@@ -971,12 +971,13 @@ section.active {
     font-family: 'Open Sans', sans-serif;
 }
 
-.resume .resume-item .details p {
+.resume .resume-item .details ul {
     color: #d8d7d6;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.8;
-	margin-top: 20px;
+    text-align: left;
+	margin-top: 10px;
     margin-bottom: 0;
 }
 

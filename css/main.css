@@ -1655,13 +1655,13 @@ section.active {
 
 	.resume .resume-item h5 {
 		padding: 15px 10px;
-		font-size: 15px;
+		font-size: 14px;
 		line-height: 1.7;
 		text-align: left;
 	}
 
 	.resume .resume-item .details ul {
-		font-size: 14px;
+		font-size: 13px;
 	}
 
     /*=========== Portfolio ============*/

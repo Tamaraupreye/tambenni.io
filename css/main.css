@@ -969,6 +969,7 @@ section.active {
     letter-spacing: .2px;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
+    vertical-align: center;
 }
 
 .resume .resume-item .details ul {

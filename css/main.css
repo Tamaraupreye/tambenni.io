@@ -857,7 +857,7 @@ section.active {
 	z-index: 1;
     line-height: 1.8;
     margin-bottom: 0;
-	font-size: 15px;
+	font-size: 13px;
     font-weight: 400;
     color: #d8d7d6;
 }
@@ -963,8 +963,8 @@ section.active {
     border: 1px solid #35353a;
     border-radius: 4px;
     color: #c79864;
-    padding: 15px;
-    font-size: 16px;
+    padding: 13px;
+    font-size: 14px;
     font-weight: 600;
     letter-spacing: .2px;
     text-align: left;
@@ -974,7 +974,7 @@ section.active {
 
 .resume .resume-item .details ul {
     color: #d8d7d6;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 1.8;
     text-align: left;

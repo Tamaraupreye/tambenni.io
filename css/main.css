@@ -961,8 +961,9 @@ section.active {
 .resume .resume-item h5 {
 	background: url('../images/bg-over.png') repeat #2a2a2e;
     border: 1px solid #35353a;
+    border-radius: 4px;
     color: #c79864;
-    padding: 1rpx;
+    padding: 15px;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: .2px;

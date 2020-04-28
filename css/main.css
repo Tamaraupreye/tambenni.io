@@ -1,10 +1,4 @@
 /*-----------------------------------------------------------------
-Template Name  : Evet - Personal Portfolio
-Author         : HasnaaDesign
-Version        : 1.0
-Primary Use    : Personal, Porfolio
------------------------------------------------------------------*/
-/*-----------------------------------------------------------------
 Table Of Contents
 --------------------------------
  1. Global Styles
@@ -696,7 +690,7 @@ section.active {
 
 .home .home-intro .main-btn {
     position: absolute;
-	bottom: 20px;
+	bottom: 60px;
 	right: 10px;
 }
 
@@ -1654,8 +1648,8 @@ section.active {
 	}
 
 	.resume .resume-item h5 {
-		padding: 10px 10px;
-		font-size: 14px;
+		padding: 8px 6px;
+		font-size: 13px;
 		line-height: 1.7;
 		text-align: left;
 	}

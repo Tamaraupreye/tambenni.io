@@ -1519,7 +1519,7 @@ section.active {
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+@media (max-width: 605.98px) {
 
 	.page-content {
 		margin-left: 0;
@@ -1648,14 +1648,14 @@ section.active {
 	}
 
 	.resume .resume-item h5 {
-		padding: 8px 6px;
-		font-size: 13px;
+		padding: 15px 10px;
+		font-size: 15px;
 		line-height: 1.7;
 		text-align: left;
 	}
 
 	.resume .resume-item .details ul {
-		font-size: 13px;
+		font-size: 14px;
 	}
 
     /*=========== Portfolio ============*/

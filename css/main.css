@@ -135,7 +135,7 @@ h6 {
     text-align: center;
     background-color: #c79864;
     border: 1px solid #c79864;
-    border-radius: 4px;
+    border-radius: 10px;
     outline: none;
     -webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
@@ -763,7 +763,7 @@ section.active {
 .about-me .about-info .personal-info {
     padding: 30px 25px 15px;
     border: 2px solid #2e2e31;
-    border-radius: 4px;
+    border-radius: 10px;
     background: url('../images/bg-over.png') repeat #2a2a2e;
     margin-bottom: 25px;
 }
@@ -797,7 +797,7 @@ section.active {
 	background: #2c2d32;
     padding: 25px 35px;
     border: 1px solid #303033;
-    border-radius: 4px;
+    border-radius: 10px;
     margin-bottom: 30px;
 }
 
@@ -864,7 +864,7 @@ section.active {
     background: url('../images/bg-over.png') repeat #2a2a2e;
     color: #fff;
     border: 2px solid #2e2e31;
-    border-radius: 4px;
+    border-radius: 10px;
     margin-top: 30px;
     padding-top: 50px;
     padding-bottom: 10px;
@@ -885,7 +885,7 @@ section.active {
 	font-size: 15px;
     color: #c79864;
     border: 1px solid #c79864;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 
 .skills .progress-container .percent:before {
@@ -939,14 +939,14 @@ section.active {
 .resume .resume-content {
     background-color: #2c2d32;
     border: 2px solid #2e2e31;
-    border-radius: 4px;
+    border-radius: 10px;
     padding: 30px 35px 0;
 }
 
 .resume .resume-item {
 	background-color: #2a2a2e;
     border: 2px solid #35353a;
-    border-radius: 4px;
+    border-radius: 10px;
     padding: 30px 25px;
     text-align: center;
     margin-bottom: 30px;
@@ -955,9 +955,10 @@ section.active {
 .resume .resume-item h5 {
 	background: url('../images/bg-over.png') repeat #2a2a2e;
     border: 1px solid #35353a;
-    border-radius: 4px;
+    border-radius: 10px;
     color: #c79864;
-    padding: 15px;
+    padding: 13px;
+    /* padding-bottom: 5px; */
     font-size: 16px;
     font-weight: 600;
     letter-spacing: .2px;
@@ -1022,12 +1023,12 @@ section.active {
 .portfolio .portfolio-content .item {
     position: relative;
     overflow: hidden;
-	border-radius: 4px;
+	border-radius: 10px;
     margin-bottom: 30px;
 }
 
 .portfolio .portfolio-content .item img {
-	border-radius: 4px;
+	border-radius: 10px;
 }
 
 .portfolio .portfolio-content .item:hover img {
@@ -1161,7 +1162,7 @@ section.active {
 }
 
 .blog .post {
-	border-radius: 4px;
+	border-radius: 10px;
 	overflow: hidden;
     margin-bottom: 30px;
 }
@@ -1183,7 +1184,7 @@ section.active {
     padding: 30px 20px;
     background: url('../images/bg-over.png') repeat #2a2a2e;
     border: 2px solid #2e2e31;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 
 .blog .post .post-content .post-title h4 {
@@ -1236,7 +1237,7 @@ section.active {
     background-color: transparent;
     color: #c79864;
     border: 1px solid #c79864;
-    border-radius: 4px;
+    border-radius: 10px;
 	margin-top: 15px;
 }
 
@@ -1274,7 +1275,7 @@ section.active {
     padding: 30px 25px;
 	background-color: #2c2d32;
     border: 1px solid #323335;
-    border-radius: 4px;
+    border-radius: 10px;
     margin-bottom: 30px;
 }
 
@@ -1330,7 +1331,7 @@ section.active {
     color: #fff;
 	background-color: #2c2d32;
     border: 1px solid #323335;
-    border-radius: 4px;
+    border-radius: 10px;
     outline: none;
     box-shadow: none;
     height: 45px;

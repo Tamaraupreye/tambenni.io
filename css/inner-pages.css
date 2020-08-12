@@ -2,11 +2,11 @@
    Global Style
 -----------------------------------------*/
 body {
-	background: #2a2a2e;
+	background: #192841;
 }
 
 .page-title {
-	background: url('../images/bg-over.png') repeat #2a2a2e;
+	background: url('../images/bg-over.png') repeat #192841;
 	padding-top: 140px;
     padding-bottom: 140px;
     text-align: center;
@@ -52,7 +52,7 @@ body {
 }
 
 .page-title .content ul li a {
-    color: #c79864;
+    color: #48D1CC;
 }
 
 .blog {
@@ -88,13 +88,13 @@ body {
     line-height: 1.8;
     font-weight: 400;
     margin-bottom: 15px;
-    color: #fbf4e0;
+    color: #ffffff;
     font-size: 15px;
 }
 
 .blog .post .post-content .more-details blockquote {
 	position: relative;
-	background: #2a2a2e;
+	background: #192841;
 	border-radius: 6px;
     margin: 0 0 15px;
     border-left: none;
@@ -110,7 +110,7 @@ body {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    color: #c79864;
+    color: #48D1CC;
 }
 
 .blog .post .post-content .more-details blockquote i:before {
@@ -125,7 +125,7 @@ body {
 
 .blog .post .post-content .post-info {
     padding: 15px 20px 15px;
-    border-bottom: 1px solid #2a2a2e;
+    border-bottom: 1px solid #192841;
 }
 
 .blog .post .post-content .post-footer {
@@ -158,13 +158,13 @@ body {
     text-align: center;
     font-size: 18px;
     border-radius: 50%;
-	border: 1px solid #c79864;
+	border: 1px solid #48D1CC;
 	color: transparent;
-    -webkit-text-stroke: 1px #c79864;
+    -webkit-text-stroke: 1px #48D1CC;
 }
 
 .blog .post .post-content .post-footer .post-share ul li a:hover {
-	color: #c79864;
+	color: #48D1CC;
 	-webkit-transition: all .08s ease-in-out;
     -moz-transition: all .08s ease-in-out;
     -o-transition: all .08s ease-in-out;
@@ -178,7 +178,7 @@ body {
 
 .blog .post .post-content .post-footer .post-tags ul li a {
     display: inline-block;
-    color: #fbf4e0;
+    color: #ffffff;
     font-size: 15px;
     letter-spacing: .3px;
     margin-bottom: 5px;
@@ -186,7 +186,7 @@ body {
 }
 
 .blog .post .post-content .post-footer .post-tags ul li a:hover {
-    color: #c79864;
+    color: #48D1CC;
 }
 
 .blog .post .post-content .post-comments {
@@ -228,7 +228,7 @@ body {
 
 .blog .post .post-content .post-comment span {
 	display: inline-block;
-    color: #fbf4e0;
+    color: #ffffff;
     letter-spacing: .5px;
     margin-bottom: 10px;
 }
@@ -238,7 +238,7 @@ body {
 	top: 0;
 	right: 0;
 	font-size: 16px;
-    color: #c79864;
+    color: #48D1CC;
 	letter-spacing: .4px;
 }
 
@@ -250,7 +250,7 @@ body {
 .blog .post .post-content .post-comment p {
     font-size: 14px;
 	line-height: 1.8;
-    color: #fbf4e0;
+    color: #ffffff;
 	margin-bottom: 0;
 }
 
@@ -289,7 +289,7 @@ body {
 }
 
 .blog .post .post-content .post-form .form-control:focus {
-	border: 1px solid #c79864;
+	border: 1px solid #48D1CC;
 }
 
 .blog .post .post-content .post-form .main-btn {
@@ -318,7 +318,7 @@ body {
 }
 
 .blog .blog-sidebar .sidebar-search .form-control:focus {
-    border: 1px solid #c79864;
+    border: 1px solid #48D1CC;
 }
 
 .blog .blog-sidebar .sidebar-search .search-btn {
@@ -338,14 +338,14 @@ body {
     font-size: 19px;
     background: transparent;
     border: none;
-    color: #c79864;
+    color: #48D1CC;
 	cursor: pointer;
 }
 
 .blog .blog-sidebar .sidebar-categories {
 	padding: 35px 20px;
 	margin-bottom: 30px;
-	border: 2px solid #2e2e31;
+	border: 2px solid #192841;
 }
 
 .blog .blog-sidebar .sidebar-categories h4 {
@@ -363,11 +363,11 @@ body {
 
 .blog .blog-sidebar .categories-list li a {
 	display: block;
-	color: #fbf4e0;
+	color: #ffffff;
 	font-size: 15px;
 	padding-bottom: 15px;
 	margin-bottom: 15px;
-	border-bottom: 1px solid #2e2e31;
+	border-bottom: 1px solid #192841;
 }
 
 .blog .blog-sidebar .categories-list li:last-of-type a {
@@ -378,17 +378,17 @@ body {
 
 .blog .blog-sidebar .categories-list li a span {
 	float: right;
-	color: #c79864;
+	color: #48D1CC;
 }
 
 .blog .blog-sidebar .categories-list li a:hover {
-	color: #c79864;
+	color: #48D1CC;
 }
 
 .blog .blog-sidebar .sidebar-posts {
 	padding: 35px 20px;
 	margin-bottom: 30px;
-	border: 2px solid #2e2e31;
+	border: 2px solid #192841;
 }
 
 .blog .blog-sidebar .sidebar-posts h4 {
@@ -423,13 +423,13 @@ body {
     line-height: 1.5;
     letter-spacing: .3px;
     text-transform: uppercase;
-    color: #fbf4e0;
+    color: #ffffff;
     font-weight: 600;
     margin: 0 0 4px;
 }
 
 .blog .blog-sidebar .sidebar-posts .post-info h5 a:hover {
-	color: #c79864;
+	color: #48D1CC;
 }
 
 .blog .blog-sidebar .sidebar-posts .post-info p {
@@ -443,7 +443,7 @@ body {
 .blog .blog-sidebar .sidebar-archives {
 	padding: 35px 20px;
 	margin-bottom: 30px;
-	border: 2px solid #2e2e31;
+	border: 2px solid #192841;
 }
 
 .blog .blog-sidebar .sidebar-archives h4 {
@@ -461,7 +461,7 @@ body {
 
 .blog .blog-sidebar .archives-list li a {
 	display: block;
-	color: #fbf4e0;
+	color: #ffffff;
 	font-size: 15px;
 	letter-spacing: .3px;
 	margin-bottom: 15px;
@@ -472,13 +472,13 @@ body {
 }
 
 .blog .blog-sidebar .archives-list li a:hover {
-	color: #c79864;
+	color: #48D1CC;
 }
 
 .blog .blog-sidebar .sidebar-tags {
 	padding: 35px 20px;
 	margin-bottom: 30px;
-	border: 2px solid #2e2e31;
+	border: 2px solid #192841;
 }
 
 .blog .blog-sidebar .sidebar-tags h4 {
@@ -500,7 +500,7 @@ body {
 
 .blog .blog-sidebar .tags-list li a {
 	display: inline-block;
-	color: #fbf4e0;
+	color: #ffffff;
 	font-size: 15px;
 	letter-spacing: .3px;
 	margin-bottom: 5px;
@@ -508,7 +508,7 @@ body {
 }
 
 .blog .blog-sidebar .tags-list li a:hover {
-	color: #c79864;
+	color: #48D1CC;
 }
 
 @media (max-width: 767.98px) {

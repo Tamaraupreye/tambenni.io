@@ -6,7 +6,7 @@
 .portfolio .portfolio-content .item .overlay .item-category span:before,
 .blog .post .post-content .post-date,
 .blog .post .post-content .post-more:hover {
-	background-color: #c79864;
+	background-color: #48D1CC;
 }
 
 .main-btn:hover,
@@ -29,7 +29,7 @@
 .blog .blog-sidebar .sidebar-posts .post-info h5 a:hover,
 .blog .blog-sidebar .archives-list li a:hover,
 .blog .blog-sidebar .tags-list li a:hover {
-    color: #c79864;
+    color: #48D1CC;
 }
 
 .services .service:hover,
@@ -38,33 +38,33 @@
 .contact .contact-form .form-group .form-control:focus,
 .blog .post .post-content .post-form .form-control:focus,
 .blog .blog-sidebar .sidebar-search .form-control:focus {
-	border: 1px solid #c79864;
+	border: 1px solid #48D1CC;
 }
 
 .preloader .loading-inner,
 .preloader .loading-inner:before,
 .preloader .loading-inner:after {
-	border-top-color: #c79864;
+	border-top-color: #48D1CC;
 }
 
 .main-btn {
-    background-color: #c79864;
-    border: 1px solid #c79864;
+    background-color: #48D1CC;
+    border: 1px solid #48D1CC;
 }
 
 .home .home-intro .social-icons li a,
 .blog .post .post-content .post-footer .post-share ul li a {
-    border: 1px solid #c79864;
-    -webkit-text-stroke: 1px #c79864;
+    border: 1px solid #48D1CC;
+    -webkit-text-stroke: 1px #48D1CC;
 }
 
 .skills .progress-container .percent,
 .blog .post .post-content .post-more {
-    color: #c79864;
-    border: 1px solid #c79864;
+    color: #48D1CC;
+    border: 1px solid #48D1CC;
 }
 
 .skills .progress-container .percent:before {
-	border: 1px solid #c79864;
-	border-color: transparent #c79864 #c79864 transparent;
+	border: 1px solid #48D1CC;
+	border-color: transparent #48D1CC #48D1CC transparent;
 }

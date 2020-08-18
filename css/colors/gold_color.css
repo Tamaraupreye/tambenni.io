@@ -12,8 +12,7 @@
 .main-btn:hover,
 .vertical-nav .copyright a,
 .vertical-nav .copyright i,
-.home .home-intro .social-icons li a:hover
-.services .service .service-icon i:before,
+.home .home-intro .social-icons li a:hover .services .service .service-icon i:before,
 .resume .resume-item h5,
 .portfolio .list-filter li.active,
 .blog .post .post-content .post-title h4:hover,
@@ -29,7 +28,7 @@
 .blog .blog-sidebar .sidebar-posts .post-info h5 a:hover,
 .blog .blog-sidebar .archives-list li a:hover,
 .blog .blog-sidebar .tags-list li a:hover {
-    color: #48D1CC;
+	color: #48D1CC;
 }
 
 .services .service:hover,
@@ -48,20 +47,20 @@
 }
 
 .main-btn {
-    background-color: #48D1CC;
-    border: 1px solid #48D1CC;
+	background-color: #48D1CC;
+	border: 1px solid #48D1CC;
 }
 
-.home .home-intro .social-icons li a,
+/* .home .home-intro .social-icons li a, */
 .blog .post .post-content .post-footer .post-share ul li a {
-    border: 1px solid #48D1CC;
-    -webkit-text-stroke: 1px #48D1CC;
+	border: 1px solid #48D1CC;
+	-webkit-text-stroke: 1px #48D1CC;
 }
 
 .skills .progress-container .percent,
 .blog .post .post-content .post-more {
-    color: #48D1CC;
-    border: 1px solid #48D1CC;
+	color: #48D1CC;
+	border: 1px solid #48D1CC;
 }
 
 .skills .progress-container .percent:before {

@@ -683,6 +683,11 @@ section.active {
 	letter-spacing: 1px;
 }
 
+.services .row {
+	overflow-x: scroll;
+	flex-wrap: nowrap;
+}
+
 .services .service {
 	background: #213650;
 	padding: 25px 35px;
@@ -1367,6 +1372,9 @@ section.active {
 	.services .main-title h2 {
 		font-size: 26px;
 	}
+	.services .row {
+		flex-wrap: wrap;
+	}
 	.services .service {
 		padding: 25px 20px;
 	}
@@ -1474,6 +1482,9 @@ section.active {
 	/*=========== Services ============*/
 	.services .main-title h2 {
 		font-size: 22px;
+	}
+	.services .row {
+		flex-wrap: wrap;
 	}
 	/*=========== Skills ============*/
 	.skills .progress-container h4 {

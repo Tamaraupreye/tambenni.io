@@ -499,6 +499,7 @@ section.active {
 	position: relative;
 	background: url('../images/home.jpg') center center no-repeat;
 	background-size: cover;
+	opacity: .65;
 }
 
 .home .home-img:after {
@@ -613,7 +614,7 @@ section.active {
 }
 
 .about-me .about-image img:hover {
-	opacity: 1;
+	opacity: .85;
 }
 
 .about-me .about-info {

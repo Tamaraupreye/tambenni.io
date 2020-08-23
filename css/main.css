@@ -1171,11 +1171,19 @@ section.active {
 	margin-left: -32.5px;
 }
 
+.contact .contact-boxes span p {
+	padding: 20px 20px;
+	text-align: center;
+	font-size: 17px;
+	color: #ffffff;
+	letter-spacing: 1px;
+}
+
 .contact .contact-box {
 	position: relative;
 	padding: 30px 25px;
 	background-color: #213650;
-	border: 1px solid #323335;
+	border: 1px solid #213650;
 	border-radius: 10px;
 	margin-bottom: 30px;
 }

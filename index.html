@@ -1,12 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Tam Benni | Engineer">
-		<title>Tam Benni | Engineer</title>
-	</head>
-	<body>
-	</body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>~/tambenni</title>
+  <style>
+    body {
+      background-color: #141414;
+      color: #d4d4d4;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      /* Terminal block cursor */
+      cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://w3.org' width='12' height='20' viewBox='0 0 12 20'><rect width='10' height='18' x='1' y='1' fill='%23d4d4d4'/></svg>") 5 9, auto;
+    }
+
+    h1 {
+      font-size: 1.4rem;
+      font-weight: normal;
+      margin: 0 0 1rem 0;
+    }
+
+    .prompt {
+      color: #737373;
+    }
+
+    .cursor-blink {
+      animation: blink 1s step-end infinite;
+    }
+
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .sep {
+      color: #525252;
+    }
+
+    a {
+      color: #d4d4d4;
+      text-decoration: none;
+      padding: 2px 4px;
+      /* Inverted block cursor on link hover */
+      cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://w3.org' width='12' height='20' viewBox='0 0 12 20'><rect width='10' height='18' x='1' y='1' fill='%23141414' stroke='%23d4d4d4' stroke-width='1.5'/></svg>") 5 9, pointer;
+    }
+
+    a:hover {
+      background-color: #d4d4d4;
+      color: #141414;
+    }
+  </style>
+</head>
+<body>
+  <h1><span class="prompt">guest@tambenni.com:~$</span> Tam Benni<span class="cursor-blink">█</span></h1>
+  <nav>
+    <a target="blank" href="https://github.com/Tamaraupreye">github</a>
+    <span class="sep">|</span>
+    <a target="blank" href="https://www.linkedin.com/in/tamaraupreye-benni-294b2b14a/"">linkedin</a>
+    <span class="sep">|</span>
+    <a target="blank" href="resume.pdf">resume</a>
+    <span class="sep">|</span>
+	<a href="mailto:tamaraupreyebenni@gmail.com">contact</a>
+  </nav>
+</body>
 </html>

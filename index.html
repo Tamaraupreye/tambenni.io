@@ -9,6 +9,11 @@
       box-sizing: border-box;
     }
 
+    :root {
+      /* Scale with viewport so "you@tambenni:~$ Tam Benni█" (~27ch) always fits on one line */
+      --fs: clamp(0.7rem, calc((100vw - 3rem) / 18), 1.4rem);
+    }
+
     body {
       background-color: #141414;
       color: #d4d4d4;
@@ -26,12 +31,11 @@
     }
 
     h1 {
-      font-size: clamp(1.05rem, 4.5vw, 1.4rem);
+      font-size: var(--fs);
       font-weight: normal;
       line-height: 1.5;
       margin: 0 0 1.25rem 0;
-      max-width: 100%;
-      overflow-wrap: break-word;
+      white-space: nowrap;
     }
 
     .prompt {
@@ -55,7 +59,8 @@
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-      gap: 0.5rem 0.75rem;
+      gap: 0.5em 0.75em;
+      font-size: clamp(0.6rem, calc((100vw - 3rem) / 28), 1rem);
     }
 
     .sep {
@@ -66,7 +71,7 @@
     a {
       color: #d4d4d4;
       text-decoration: none;
-      padding: 6px 8px;
+      padding: 0.375em 0.5em;
       /* Inverted block cursor on link hover */
       cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://w3.org' width='12' height='20' viewBox='0 0 12 20'><rect width='10' height='18' x='1' y='1' fill='%23141414' stroke='%23d4d4d4' stroke-width='1.5'/></svg>") 5 9, pointer;
     }
@@ -76,19 +81,10 @@
       background-color: #d4d4d4;
       color: #141414;
     }
-
-    /* Stack prompt cleanly above name on narrow screens */
-    @media (max-width: 480px) {
-      .prompt {
-        display: block;
-        font-size: 0.85em;
-        margin-bottom: 0.25rem;
-      }
-    }
   </style>
 </head>
 <body>
-  <h1><span class="prompt">guest@tambenni.com:~$</span> <span class="name-wrap">Tam Benni<span class="cursor-blink">█</span></span></h1>
+  <h1><span class="prompt">you@tambenni:~$</span> <span class="name-wrap">Tam Benni<span class="cursor-blink">█</span></span></h1>
   <nav>
     <a target="_blank" rel="noopener noreferrer" href="https://github.com/Tamaraupreye">github</a>
     <span class="sep">|</span>
